@@ -1,0 +1,13 @@
+module.exports = {
+    name: 'help',
+    description: 'List all commands or info about a specific command',
+    aliases: ['commands', 'cmds'],
+    usage: '[command name]',
+    args: true,
+    owner: true,
+    execute(message, args) {
+
+        //Stuff
+
+    },
+};
